@@ -1,0 +1,77 @@
+{
+  "WPFTweaks": [
+    "WPFTweaksRestorePoint",
+    "WPFTweaksRemoveHomeGallery",
+    "WPFTweaksPowershell7",
+    "WPFTweaksEndTaskOnTaskbar",
+    "WPFTweaksDeleteTempFiles",
+    "WPFTweaksDisplay",
+    "WPFTweaksDisableLMS1",
+    "WPFTweaksPowershell7Tele",
+    "WPFTweaksServices",
+    "WPFTweaksConsumerFeatures",
+    "WPFTweaksDisableipsix",
+    "WPFTweaksEdgeDebloat",
+    "WPFTweaksWifi",
+    "WPFTweaksTele",
+    "WPFTweaksDisableBGapps",
+    "WPFTweaksDiskCleanup",
+    "WPFTweaksLaptopHibernation",
+    "WPFTweaksRightClickMenu",
+    "WPFTweaksRecallOff",
+    "WPFTweaksLoc",
+    "WPFTweaksDVR"
+  ],
+  "Install": [
+    {
+      "winget": "Microsoft.NuGet",
+      "choco": "nuget.commandline"
+    },
+    {
+      "winget": "Microsoft.PowerShell",
+      "choco": "powershell-core"
+    },
+    {
+      "winget": "Microsoft.DotNet.DesktopRuntime.9",
+      "choco": "dotnet-9.0-runtime"
+    },
+    {
+      "winget": "Microsoft.Teams",
+      "choco": "microsoft-teams"
+    },
+    {
+      "winget": "Microsoft.WindowsTerminal",
+      "choco": "microsoft-windows-terminal"
+    },
+    {
+      "winget": "Greenshot.Greenshot",
+      "choco": "greenshot"
+    },
+    {
+      "winget": "Mozilla.Firefox",
+      "choco": "firefox"
+    },
+    {
+      "winget": "Notepad++.Notepad++",
+      "choco": "notepadplusplus"
+    },
+    {
+      "winget": "VideoLAN.VLC",
+      "choco": "vlc"
+    }
+  ],
+  "WPFInstall": [
+    "WPFInstallpowershell",
+    "WPFInstalldotnet9",
+    "WPFInstallteams",
+    "WPFInstallterminal",
+    "WPFInstallfirefox",
+    "WPFInstallnotepadplus",
+    "WPFInstallvlc",
+    "WPFInstallvc2015_64"
+  ],
+  "WPFFeature": [
+    "WPFFeaturesdotnet",
+    "WPFFeatureDisableSearchSuggestions"
+  ]
+}
